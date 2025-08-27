@@ -1,0 +1,33 @@
+
+      .t-principal {
+        color: aqua;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 50px;
+        text-align: center;
+      }
+
+      .t-secundario {
+        color: aqua;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 35px;
+      }
+
+      p {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 30px;
+      }
+
+      th,
+      td {
+        border-style: double;
+        padding: 8px;
+      }
+
+      ul {
+        list-style: none;
+      }
+
+      table {
+        border-collapse: collapse;
+        margin-top: 15px;
+      }
