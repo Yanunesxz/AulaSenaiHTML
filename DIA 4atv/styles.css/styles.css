@@ -1,0 +1,37 @@
+.flex {
+  display: flex;
+  background-color: lightgray;
+  border: solid 2px black;
+  border-radius: 5px;
+  width: 600px;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexC {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 150px;
+  height: 100px;
+  border: solid 2px black;
+  display: flex; 
+  justify-content: space-around;
+  align-items: center;
+}
+
+#box1 {
+  background-color: grey;
+}
+
+#box2 {
+  background-color: white;
+}
+
+#box3 {
+  background-color: yellow;
+}
