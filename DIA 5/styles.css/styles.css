@@ -1,0 +1,45 @@
+#header {
+  background-color: lightblue;
+  text-align: center;
+}
+
+.headerFooter {
+  background-color: lightblue;
+  text-align: center;
+}
+
+#sidebar {
+  background-color: yellowgreen;
+  width: 400px;
+  padding: 10px;
+}
+
+#containerArticle {
+  display: flex;
+  flex-direction: column;
+  background-color: tomato;
+  flex-grow: 1;
+  padding: 10px;
+}
+
+#container {
+  display: flex;
+  height: 75vh;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+#containerImagens {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.imagem {
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
