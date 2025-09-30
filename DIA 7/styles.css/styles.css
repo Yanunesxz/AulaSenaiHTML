@@ -1,0 +1,52 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 100px);
+}
+
+div {
+  align-content: center;
+  text-align: center;
+}
+
+.header {
+  grid-column: 1 / 6;
+  grid-row: 1 / 2;
+  background-color: blue;
+}
+
+.sidebar {
+  grid-column: 1 / 2;
+  grid-row: 2 / 5;
+  background-color: green;
+}
+
+.title {
+  grid-column: 2 / 6;
+  grid-row: 2 / 3;
+  background-color: pink;
+}
+
+.article1 {
+  grid-column: 2 / 3;
+  grid-row: 3 / 5;
+  background-color: hotpink;
+}
+
+.article2 {
+  grid-column: 3 / 4;
+  grid-row: 3 / 5;
+  background-color: rosybrown;
+}
+
+.article3 {
+  grid-column: 4 / 5;
+  grid-row: 3 / 5;
+  background-color: rosybrown;
+}
+
+.footer {
+  grid-column: 1 / 6;
+  grid-row: 5 / 6;
+  background-color: blue;
+}

@@ -1,0 +1,97 @@
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  grid-template-rows: repeat(5, 100px);
+  gap: 5px;
+}
+
+.item {
+  display: grid;
+  place-items: center;
+  font-size: 12px;
+  color: white;
+}
+
+/* Linha 1 */
+.item1 {
+  background: goldenrod;
+  grid-column: 1;
+  grid-row: 1;
+}
+.item2 {
+  background: yellowgreen;
+  grid-column: 2;
+  grid-row: 1;
+}
+.item3 {
+  background: green;
+  grid-column: 3;
+  grid-row: 1;
+}
+.item4 {
+  background: limegreen;
+  grid-column: 4;
+  grid-row: 1;
+}
+
+.item6 {
+  background: teal;
+  grid-column: 1;
+  grid-row: 2;
+}
+.item7 {
+  background: turquoise;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.item8 {
+  background: dodgerblue;
+  grid-column: 1;
+  grid-row: 3;
+}
+.item9 {
+  background: royalblue;
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.item10 {
+  background: slateblue;
+  grid-column: 1;
+  grid-row: 4;
+}
+.item11 {
+  background: indigo;
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.item12 {
+  background: violet;
+  grid-column: 1;
+  grid-row: 5;
+}
+.item13 {
+  background: mediumvioletred;
+  grid-column: 2;
+  grid-row: 5;
+}
+
+.item14 {
+  background: crimson;
+  grid-column: 3 / 5;
+  grid-row: 2 / 5;
+}
+
+.item5 {
+  background: seagreen;
+  grid-column: 5;
+  grid-row: 2 / 6;
+}
